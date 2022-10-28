@@ -1,0 +1,76 @@
+body{
+    background-color:white;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+}
+.container{
+    background-color: #998235;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    align-items: center;
+    justify-content: center;    
+}
+.bee{
+    width: 150px;
+    height: 90px;
+    background-color: yellow;
+    border-radius: 60px;
+    margin-top: 150px;
+    margin-left: 30%;
+    overflow: hidden;
+    position: relative;
+}
+.bs1{
+    width: 25px;
+    height: 150px;
+    background-color: black;
+    margin-left: 0px;
+    box-shadow:0 0 0 20px yellow, 0 0 0 40px black,0 0 0 60px yellow,0 0 0 80px black;
+    position: absolute;
+}
+/* .bs2{
+    width: 25px;
+    height: 150px;
+    background-color: black;
+    margin-left: 90px;
+    position: absolute;
+}
+.bs3{
+    width: 35px;
+    height: 150px;
+    background-color: black;
+    margin-left: 0px;
+    position: absolute;
+}
+*/
+.eye{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+    border-radius: 60%;
+    margin-left: 120px;
+    margin-top: 25px;
+}
+.wings{
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    top: 90px;
+    left: 135px;
+    display: flex;
+}
+.wing1{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50% 50% 0% 50%;
+}
+.wing2{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50% 50% 50% 0%;
+}

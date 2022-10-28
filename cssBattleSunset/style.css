@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+.container{
+    height: 300px;
+    width: 400px;
+    background-color: #191919;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+.frame{
+    display: flex;
+    width: 150px;
+    height: 200px;
+    background-color: #F2AD43;
+    border-radius: 100px 100px 20px 20px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 110px;
+    overflow: hidden;
+}
+.leftCircle{
+    width: 120px;
+    height: 120px;
+    background-color: #E08027;
+    margin-top: 100px;
+    margin-left: -20px;
+    position: absolute;
+    border-radius: 0px 100px 0px 0px;
+}
+.rightCircle{
+    width: 120px;
+    height: 120px;
+    background-color: #824B20;
+    margin-top: 100px;
+    margin-left: 50px;
+    position: absolute;
+    border-radius: 100px 0px 0px 0px;
+}
+.sun{
+    width: 60px;
+    height: 60px;
+    background-color: #FFF58F;
+    position: absolute;
+    border-radius: 70px;
+    top: 90px;
+    left: 45px;
+}
